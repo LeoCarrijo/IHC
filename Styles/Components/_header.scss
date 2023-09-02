@@ -1,5 +1,17 @@
 @import '../Abstract/variaveis';
 
-header {
-    background-color: $cor-1;
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 2px 0px 5px black;
+    background-color: $cor-fundo;
+}
+
+.cabecalho__imagem {
+    min-width: 100px;
+    max-width: 250px;
+    height: 85px;
 }

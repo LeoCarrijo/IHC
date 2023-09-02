@@ -1,3 +1,20 @@
-header {
-  background-color: #FFBB5C;
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 2px 0px 5px black;
+  background-color: #F4F2DE;
+}
+
+.cabecalho__imagem {
+  min-width: 100px;
+  max-width: 250px;
+  height: 85px;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
 }/*# sourceMappingURL=style.css.map */
