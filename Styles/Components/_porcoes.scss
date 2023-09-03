@@ -1,37 +1,9 @@
 @import '../Abstract/variaveis';
+@import '../Abstract/mixins';
 
 .porcoes__container {
-    display: flex;
-    margin: 10px auto;
-    background-color: $cor-1;
-    padding: 10px;
-    border-radius: 10px;
-    width: 80%;
-    align-items: center;
-    border: 3px solid $cor-4;
-    gap: 10px;
-    overflow-x: scroll;
-    box-shadow: 0px 0px 10px rgba(255, 156, 80, 0.596);
-    h1 {
-        text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.445);
-    }
+    @include cartao-container;
     .porcao {
-        background-color: $cor-2;
-        padding: 10px;
-        border-radius: 10px;
-        min-width: 150px;
-        border: 3px solid $cor-4;
-    }
-    &::-webkit-scrollbar{
-        background-color: $cor-2;
-        border-radius: 10px;
-        height: 10px;
-    }
-    &::-webkit-scrollbar-thumb {
-        background: $cor-3;
-        border-radius: 10px;
-    }
-    &::-webkit-scrollbar-corner {
-        display: none;
+        @include cartao;
     }
 }
