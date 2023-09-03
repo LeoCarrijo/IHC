@@ -29,7 +29,7 @@
   display: flex;
   flex-direction: column;
   padding: 15px 0px;
-  height: 100vh;
+  height: 85%;
   background: rgba(51, 15, 11, 0.431372549);
 }
 
@@ -162,17 +162,15 @@
 }
 
 .rodape {
-  position: absolute;
   width: calc(100% - 20px);
   bottom: 0;
-  height: 8%;
+  height: 7%;
   padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   box-shadow: 2px 0px 5px black;
   background-image: linear-gradient(to bottom, #E25E3E, #C63D2F);
-  position: fixed;
 }
 .rodape i {
   font-size: 32px;
@@ -190,6 +188,8 @@
 body {
   background: #F4F2DE url(../../Images/fundo.webp) center center/cover no-repeat fixed;
   line-height: 30px;
+  display: flex;
+  flex-direction: column;
 }
 body::-webkit-scrollbar {
   background-color: #FFBB5C;

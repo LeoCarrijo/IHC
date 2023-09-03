@@ -1,17 +1,15 @@
 @import '../Abstract/variaveis';
 
 .rodape {
-    position: absolute;
     width: calc(100% - 20px);
     bottom: 0;
-    height: 8%;
+    height: 7%;
     padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-shadow: 2px 0px 5px black;
     background-image: linear-gradient(to bottom, $cor-3, $cor-4);
-    position: fixed;
     i {
         font-size: 32px;
     }

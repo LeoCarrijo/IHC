@@ -9,6 +9,8 @@
 body {
     background: $cor-fundo url(../../Images/fundo.webp) center center / cover no-repeat fixed;
     line-height: 30px;
+    display: flex;
+    flex-direction: column;
     &::-webkit-scrollbar{
         background-color: $cor-1;
         height: 10px;
