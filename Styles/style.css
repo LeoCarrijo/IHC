@@ -157,6 +157,9 @@
   width: 85%;
   height: 35px;
 }
+.botao:active {
+  background-image: linear-gradient(to top, #E25E3E 40%, #C63D2F);
+}
 
 .rodape {
   position: absolute;
