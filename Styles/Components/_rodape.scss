@@ -1,0 +1,18 @@
+@import '../Abstract/variaveis';
+
+.rodape {
+    position: absolute;
+    width: calc(100% - 20px);
+    bottom: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $cor-4;
+    i {
+        font-size: 32px;
+    }
+    .valor__total {
+        text-align: center;
+    }
+}

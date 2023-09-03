@@ -1,6 +1,6 @@
 @import '../Abstract/variaveis';
 
-.bebidas__container {
+.acompanhamentos__container {
     display: flex;
     margin: 10px auto;
     background-color: $cor-1;
@@ -15,7 +15,7 @@
     h1 {
         text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.445);
     }
-    .bebida {
+    .acompanhamento {
         background-color: $cor-2;
         padding: 10px;
         border-radius: 10px;

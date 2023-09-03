@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
 .cabecalho {
   display: flex;
   justify-content: space-between;
@@ -16,12 +21,13 @@
 
 .bebidas__container {
   display: flex;
-  margin: auto;
+  margin: 10px auto;
   background-color: #FFBB5C;
   padding: 10px;
   border-radius: 10px;
   width: 80%;
   align-items: center;
+  border: 3px solid #C63D2F;
   gap: 10px;
   overflow-x: scroll;
   box-shadow: 0px 0px 10px rgba(255, 156, 80, 0.596);
@@ -34,6 +40,7 @@
   padding: 10px;
   border-radius: 10px;
   min-width: 150px;
+  border: 3px solid #C63D2F;
 }
 .bebidas__container::-webkit-scrollbar {
   background-color: #FF9B50;
@@ -45,7 +52,62 @@
   border-radius: 10px;
 }
 
+.acompanhamentos__container {
+  display: flex;
+  margin: 10px auto;
+  background-color: #FFBB5C;
+  padding: 10px;
+  border-radius: 10px;
+  width: 80%;
+  align-items: center;
+  border: 3px solid #C63D2F;
+  gap: 10px;
+  overflow-x: scroll;
+  box-shadow: 0px 0px 10px rgba(255, 156, 80, 0.596);
+}
+.acompanhamentos__container h1 {
+  text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.445);
+}
+.acompanhamentos__container .acompanhamento {
+  background-color: #FF9B50;
+  padding: 10px;
+  border-radius: 10px;
+  min-width: 150px;
+  border: 3px solid #C63D2F;
+}
+.acompanhamentos__container::-webkit-scrollbar {
+  background-color: #FF9B50;
+  border-radius: 10px;
+  height: 10px;
+}
+.acompanhamentos__container::-webkit-scrollbar-thumb {
+  background: #E25E3E;
+  border-radius: 10px;
+}
+
+.rodape {
+  position: absolute;
+  width: calc(100% - 20px);
+  bottom: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #C63D2F;
+}
+.rodape i {
+  font-size: 32px;
+}
+.rodape .valor__total {
+  text-align: center;
+}
+
 * {
   padding: 0px;
   margin: 0px;
+  font-family: "Rowdies", cursive;
+}
+
+body {
+  background-color: #F4F2DE;
 }/*# sourceMappingURL=style.css.map */
