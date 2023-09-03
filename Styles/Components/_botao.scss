@@ -3,7 +3,16 @@
 .botao {
     display: block;
     margin: auto;
-    background-color: $cor-3;
+    background-image: linear-gradient(to top, $cor-3 40%, $cor-4);
     height: 30px;
     width: 80%;
+    border-radius: 10px;
+    border: 2px solid $cor-4;
+    transition: .15s;
+    &:hover {
+        background-image: linear-gradient(to top, $cor-4 40%, $cor-3);
+        border: 2px solid $cor-3;
+        width: 85%;
+        height: 35px;
+    }
 }
