@@ -11,6 +11,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
 .cabecalho {
   display: flex;
   justify-content: space-between;
@@ -59,6 +60,11 @@
   padding: 15px 0px;
   height: 85%;
   background: rgba(51, 15, 11, 0.431372549);
+}
+
+[vw] [vw-access-button] .access-button {
+  border-radius: 50%;
+  border: 2px solid white;
 }
 
 .bebidas__container {
