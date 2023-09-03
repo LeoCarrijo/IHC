@@ -9,6 +9,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
 .cabecalho {
   display: flex;
   justify-content: space-between;
@@ -23,6 +25,32 @@
   min-width: 100px;
   max-width: 250px;
   height: 85px;
+}
+
+.cabecalho__botao {
+  display: block;
+  margin: auto;
+  background-image: linear-gradient(to top, #FFBB5C 40%, #FF9B50);
+  height: 100%;
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 2px solid #FF9B50;
+  transition: 0.15s;
+}
+.cabecalho__botao:hover {
+  background-image: linear-gradient(to top, #FF9B50 40%, #FFBB5C);
+  border: 2px solid #FFBB5C;
+}
+.cabecalho__botao:active {
+  background-image: linear-gradient(to top, #FFBB5C 40%, #FF9B50);
+}
+
+.cabecalho__lista {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style-type: none;
 }
 
 .principal {
