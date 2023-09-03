@@ -12,6 +12,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
 .cabecalho {
   display: flex;
   justify-content: space-between;
@@ -42,6 +43,7 @@
 .cabecalho__botao:hover {
   background-image: linear-gradient(to top, #FF9B50 40%, #FFBB5C);
   border: 2px solid #FFBB5C;
+  text-decoration: underline;
 }
 .cabecalho__botao:active {
   background-image: linear-gradient(to top, #FFBB5C 40%, #FF9B50);
@@ -190,6 +192,7 @@
   border: 2px solid #E25E3E;
   width: 85%;
   height: 35px;
+  text-decoration: underline;
 }
 .botao:active {
   background-image: linear-gradient(to top, #E25E3E 40%, #C63D2F);
@@ -211,6 +214,37 @@
 }
 .rodape .valor__total {
   text-align: center;
+}
+
+.pedido__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pedido__container p {
+  font-size: 1.2rem;
+  text-decoration: underline;
+}
+.pedido__container .rodape__botao {
+  display: block;
+  margin: auto;
+  background-image: linear-gradient(to top, #FFBB5C 40%, #FF9B50);
+  height: 50px;
+  width: 130px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 2px solid #FF9B50;
+  transition: 0.15s;
+  font-size: 1rem;
+}
+.pedido__container .rodape__botao:hover {
+  background-image: linear-gradient(to top, #FF9B50 40%, #FFBB5C);
+  border: 2px solid #FFBB5C;
+  width: 150px;
+  text-decoration: underline;
+}
+.pedido__container .rodape__botao:active {
+  background-image: linear-gradient(to top, #FFBB5C 40%, #FF9B50);
 }
 
 * {
