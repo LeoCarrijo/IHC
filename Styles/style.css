@@ -14,7 +14,7 @@
   height: 8%;
   margin-bottom: 15px;
   box-shadow: 2px 0px 5px black;
-  background-color: #F4F2DE;
+  background-image: linear-gradient(to top, #E25E3E, #C63D2F);
 }
 
 .cabecalho__imagem {
@@ -27,7 +27,8 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 97px;
-  height: 86vh;
+  height: 100vh;
+  background: rgba(51, 15, 11, 0.431372549);
 }
 
 .bebidas__container {
@@ -62,6 +63,9 @@
   background: #E25E3E;
   border-radius: 10px;
 }
+.bebidas__container::-webkit-scrollbar-corner {
+  display: none;
+}
 
 .acompanhamentos__container {
   display: flex;
@@ -94,6 +98,9 @@
 .acompanhamentos__container::-webkit-scrollbar-thumb {
   background: #E25E3E;
   border-radius: 10px;
+}
+.acompanhamentos__container::-webkit-scrollbar-corner {
+  display: none;
 }
 
 .porcoes__container {
@@ -128,6 +135,9 @@
   background: #E25E3E;
   border-radius: 10px;
 }
+.porcoes__container::-webkit-scrollbar-corner {
+  display: none;
+}
 
 .botao {
   display: block;
@@ -146,7 +156,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #C63D2F;
+  box-shadow: 2px 0px 5px black;
+  background-image: linear-gradient(to bottom, #E25E3E, #C63D2F);
   position: fixed;
 }
 .rodape i {
@@ -163,6 +174,17 @@
 }
 
 body {
-  background-color: #F4F2DE;
+  background: #F4F2DE url(../../Images/fundo.webp) center center/cover no-repeat fixed;
   line-height: 30px;
+}
+body::-webkit-scrollbar {
+  background-color: #FFBB5C;
+  height: 10px;
+}
+body::-webkit-scrollbar-thumb {
+  background: #FF9B50;
+  border: 2px solid #C63D2F;
+}
+body::-webkit-scrollbar-corner {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
