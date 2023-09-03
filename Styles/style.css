@@ -3,12 +3,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
 .cabecalho {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  margin-bottom: 10px;
+  height: 8%;
+  margin-bottom: 15px;
   box-shadow: 2px 0px 5px black;
   background-color: #F4F2DE;
 }
@@ -17,6 +20,12 @@
   min-width: 100px;
   max-width: 250px;
   height: 85px;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  height: 86vh;
 }
 
 .bebidas__container {
@@ -85,10 +94,44 @@
   border-radius: 10px;
 }
 
+.porcoes__container {
+  display: flex;
+  margin: 10px auto;
+  background-color: #FFBB5C;
+  padding: 10px;
+  border-radius: 10px;
+  width: 80%;
+  align-items: center;
+  border: 3px solid #C63D2F;
+  gap: 10px;
+  overflow-x: scroll;
+  box-shadow: 0px 0px 10px rgba(255, 156, 80, 0.596);
+}
+.porcoes__container h1 {
+  text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.445);
+}
+.porcoes__container .porcao {
+  background-color: #FF9B50;
+  padding: 10px;
+  border-radius: 10px;
+  min-width: 150px;
+  border: 3px solid #C63D2F;
+}
+.porcoes__container::-webkit-scrollbar {
+  background-color: #FF9B50;
+  border-radius: 10px;
+  height: 10px;
+}
+.porcoes__container::-webkit-scrollbar-thumb {
+  background: #E25E3E;
+  border-radius: 10px;
+}
+
 .rodape {
   position: absolute;
   width: calc(100% - 20px);
   bottom: 0;
+  height: 8%;
   padding: 10px;
   display: flex;
   justify-content: space-between;
