@@ -5,6 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
 .cabecalho {
   display: flex;
   justify-content: space-between;
@@ -25,6 +26,7 @@
 .principal {
   display: flex;
   flex-direction: column;
+  margin-bottom: 97px;
   height: 86vh;
 }
 
@@ -127,6 +129,14 @@
   border-radius: 10px;
 }
 
+.botao {
+  display: block;
+  margin: auto;
+  background-color: #E25E3E;
+  height: 30px;
+  width: 80%;
+}
+
 .rodape {
   position: absolute;
   width: calc(100% - 20px);
@@ -154,4 +164,5 @@
 
 body {
   background-color: #F4F2DE;
+  line-height: 30px;
 }/*# sourceMappingURL=style.css.map */

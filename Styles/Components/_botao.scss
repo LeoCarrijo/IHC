@@ -1,0 +1,9 @@
+@import '../Abstract/variaveis';
+
+.botao {
+    display: block;
+    margin: auto;
+    background-color: $cor-3;
+    height: 30px;
+    width: 80%;
+}
