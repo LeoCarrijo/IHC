@@ -137,6 +137,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: #C63D2F;
+  position: fixed;
 }
 .rodape i {
   font-size: 32px;
