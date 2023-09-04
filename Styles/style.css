@@ -190,8 +190,6 @@
 .botao:hover {
   background-image: linear-gradient(to top, #C63D2F 40%, #E25E3E);
   border: 2px solid #E25E3E;
-  width: 85%;
-  height: 35px;
   text-decoration: underline;
 }
 .botao:active {
